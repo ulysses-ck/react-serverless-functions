@@ -22,7 +22,7 @@
     "**/.factorypath": true,
     "**/.project": true,
     "**/.settings": true,
-    ".vscode": true,
+    ".vscode": false,
     "node_modules": true,
     ".history": true,
     ".netlify": true
