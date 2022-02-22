@@ -25,5 +25,8 @@ yarn-error.log*
 # history
 /.history
 
+# netlify
+.netlify
+
 # vscode settings
-/.vscode
+.vscode
