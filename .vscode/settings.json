@@ -9,5 +9,23 @@
       "source.fixAll": true
     }
   },
-  "typescript.preferences.quoteStyle": "single"
+  "typescript.preferences.quoteStyle": "single",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "./node_modules": true,
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    ".vscode": true,
+    "node_modules": true,
+    ".history": true,
+    ".netlify": true
+  },
+  "explorerExclude.backup": null
 }
