@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 
 import axios from 'axios';
 
-const useGetMessageRequest = () => {
+const useGetMessageRequest = (): string => {
 	//  serverless function url
 	const urlPath = '/.netlify/functions/hello-world';
 
