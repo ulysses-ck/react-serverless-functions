@@ -15,10 +15,13 @@ export { handler };
 ```
 
 ## Installation
-First you n
-
-After clone the repository, install dependencies:
+First, you need install globally the netlify CLI, or also you can do it per project as dev dependencies:
 ```
+$ npm install netlify-cli -g
+```
+After, clone the repository, install all dependencies:
+```
+$ git clone https://github.com/ulysses-ck/react-serverless-functions
 $ yarn install
 ```
 Then, run:
